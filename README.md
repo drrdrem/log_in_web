@@ -20,11 +20,13 @@ pre-trained model related source code.
 One can also create a docker image based on the Dockerfile.
 The framework of the project is based on Flask with
 Python.
+
 <img src= "https://github.com/drrdrem/log_in_web/blob/master/figure/File_struct.png" height=30% width=30%>
 **Figure 1: Files structure.**
 
 <img src= "https://github.com/drrdrem/log_in_web/blob/master/figure/Dockerfile.png" height=30% width=30%>
 **Figure 2: Set up information.**
+
 
 # Function
 ## Registration
