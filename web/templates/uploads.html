@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% from "_form_macros.html" import render_field_without_label %}
+
+{% block content %}
+<div class="upload-file">
+    <div class="page-header">
+      <h2>Please upload .zip file</h2>
+    </div>
+    <body>  
+        <form action = "/results" method = "post" enctype="multipart/form-data">  
+            <input type="file" name="file" />  
+            <input type = "submit" value="Upload">  
+        </form>  
+    </body>  
+</div>  
+{% endblock %}

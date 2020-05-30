@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% from "_form_macros.html" import render_field_without_label %}
+
+{% block content %}
+<div class="Prediction-Results">
+    <div class="page-header">
+        <h2>Prediction Results</h2>
+    </div>
+    
+    <body>  
+        <pre>Results: {{name}}</pre>  
+    </body>  
+</div>  
+{% endblock %}

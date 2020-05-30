@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% from "_form_macros.html" import render_field %}
+
+{% block content %}
+
+<div class="user-profile">
+  <div class="page-header">
+    <h2>User Profile</h2>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="panel panel-primary">
+        <div class="panel-heading">General profile</div>
+        <div class="panel-body">Username: {{current_user.username}}</div>
+        <div class="panel-body">Email: {{current_user.email}}</div>
+      </div>
+
+      <div class="panel panel-info">
+        <div class="panel-heading">Account Actions</div>
+        <div class="panel-body"><a href="{{ url_for('users.user_email_change') }}">Change Email Address</a></div>
+        <div class="panel-body"><a href="{{ url_for('users.user_password_change') }}">Change Password</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
