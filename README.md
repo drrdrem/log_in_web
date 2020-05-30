@@ -21,9 +21,9 @@ One can also create a docker image based on the Dockerfile.
 The framework of the project is based on Flask with
 Python.
 ![Figure 1: Files structure.](https://github.com/drrdrem/log_in_web/blob/master/figure/File_struct.png)
-**Figure 1: Files structure.
+**Figure 1: Files structure.**
 ![Figure 2: Set up information.](https://github.com/drrdrem/log_in_web/blob/master/figure/Dockerfile.png)
-**Figure 2: Set up information.
+**Figure 2: Set up information.**
 
 # Function
 ## Registration
@@ -35,9 +35,9 @@ duplication warning during creating a new account. The
 user will be logged into the system directly once he/ she
 finishes registration successfully.
 ![Figure 3: Registration page.](https://github.com/drrdrem/log_in_web/blob/master/figure/Register.png)
-**Figure 3: Registration page.
+**Figure 3: Registration page.**
 ![Figure 4: Account duplication warning.](https://github.com/drrdrem/log_in_web/blob/master/figure/Acc_dup.png)
-**Figure 4: Account duplication warning.
+**Figure 4: Account duplication warning.**
 
 ## Log in
 Figure 5 shows the login page. One can login based on
@@ -50,10 +50,10 @@ automatically if the user idles more than 10 minutes (Due
 to the fact that analysis will take more than 2 minutes to
 finish).
 ![Figure 5: Log in page.](https://github.com/drrdrem/log_in_web/blob/master/figure/Login.png)
-**Figure 5: Log in page.
+**Figure 5: Log in page.**
 
 ![Figure 6: Incorrect login warning.](https://github.com/drrdrem/log_in_web/blob/master/figure/Incorresct_login.png)
-**Figure 6: Incorrect login warning.
+**Figure 6: Incorrect login warning.**
 
 ### Profile
 One can access his/ her profile from his/ her email address
@@ -62,21 +62,21 @@ One can also see his/ her basic information and reset
 the email address and password here. Figure 7 is an example
 of user profile.
 ![Figure 7: Profile page.](https://github.com/drrdrem/log_in_web/blob/master/figure/User_profile.png)
-**Figure 7: Profile page.
+**Figure 7: Profile page.**
 
 ### Updating email and password
 One can update his/ her password and email address
 through the user profile page. Figure 8 is the page to update
 the password.
 ![Figure 8: Update password page.](https://github.com/drrdrem/log_in_web/blob/master/figure/Update_passwor.png)
-**Figure 8: Update password page.
+**Figure 8: Update password page.**
 
 ### Reset password via email
 If one forget the password, he/ she can also access the
 account by reset the password via the email. Figure 9 shows
 the reset password via email page.
 ![Figure 9: reset password through email page.](https://github.com/drrdrem/log_in_web/blob/master/figure/Reset_email.png)
-**Figure 9: reset password through email page.
+**Figure 9: reset password through email page.**
 
 ## Upload file
 After logging into the account. The web page will redirect
@@ -85,7 +85,7 @@ shows the upload page. One can access the upload page at
 any time after log into the account. The page will show the
 warning if one uploaded incompatible files.
 ![Figure 10: Upload file.](https://github.com/drrdrem/log_in_web/blob/master/figure/Upload.png)
-**Figure 10: Upload file.
+**Figure 10: Upload file.**
 
 ## Results’ page
 After uploading the file successfully and finishing the
@@ -94,7 +94,7 @@ shows the analysis results. The analysis is based on the pretrained
 model.Figure 11 shows an example of the results
 page.
 ![Figure 11: Analysis results.](https://github.com/drrdrem/log_in_web/blob/master/figure/Results.png)
-**Figure 11: Analysis results.
+**Figure 11: Analysis results.**
 
 # Unittest
 We test the overall project on duplicate registration, update
