@@ -1,5 +1,9 @@
 # log_in_web
-
+Design and implement a web-based email classification
+system. This project implement both web server-side code
+and front-end UI (browser) code. The system should have
+login/logout functions, and also be able to run the pretrained
+classification Machine Learning model.
 # Docker
 The final.tar is the docker file that contains the website,
 the port is 5000 on docker side, please load the image and
@@ -26,7 +30,7 @@ duplication warning during creating a new account. The
 user will be logged into the system directly once he/ she
 finishes registration successfully.
 
-# Log in
+## Log in
 Figure 5 shows the login page. One can login based on
 his/ her username and corresponding password to log into
 the account. If one gives a wrong password, the web page 
@@ -36,3 +40,40 @@ on the navigation bar. The login session will be terminated
 automatically if the user idles more than 10 minutes (Due
 to the fact that analysis will take more than 2 minutes to
 finish).
+
+### Profile
+One can access his/ her profile from his/ her email address
+on the right of the navigation bar after login the account.
+One can also see his/ her basic information and reset
+the email address and password here. Figure 7 is an example
+of user profile.
+
+### Updating email and password
+One can update his/ her password and email address
+through the user profile page. Figure 8 is the page to update
+the password.
+
+### Reset password via email
+If one forget the password, he/ she can also access the
+account by reset the password via the email. Figure 9 shows
+the reset password via email page.
+
+## Upload file
+After logging into the account. The web page will redirect
+to the upload page to upload testing data. Figure 10
+shows the upload page. One can access the upload page at
+any time after log into the account. The page will show the
+warning if one uploaded incompatible files.
+
+## Results’ page
+After uploading the file successfully and finishing the
+analysis, the web page will redirect to results’ page and
+shows the analysis results. The analysis is based on the pretrained
+model.Figure 11 shows an example of the results
+page.
+
+# Unittest
+We test the overall project on duplicate registration, update
+the password and then log in. We also test the functionality
+of page redirection. Due to the time limitation, we
+did not
